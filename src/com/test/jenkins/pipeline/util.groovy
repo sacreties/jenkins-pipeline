@@ -1,5 +1,7 @@
 #!groovy
 
+package com.test.jenkins.pipeline;
+
 import java.util.Properties;
 
 public class SortedProperties extends Properties{

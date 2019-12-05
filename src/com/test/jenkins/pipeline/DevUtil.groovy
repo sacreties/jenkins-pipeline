@@ -1,5 +1,3 @@
-#!groovy
-
 package com.test.jenkins.pipeline;
 
 import java.util.Properties;

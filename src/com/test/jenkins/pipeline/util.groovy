@@ -17,8 +17,8 @@ public class SortedProperties extends Properties{
 }
 
 
-def wrap(Properties props,def keySet){
-	return new SortedProperties(props,keySet);
+def wrap(def keySet){
+	return new SortedProperties(new Properties(),keySet);
 }
 
 return this;
